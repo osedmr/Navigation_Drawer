@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="navigationDrawerTop" parent="Widget.MaterialComponents.NavigationView">
+
+        <item name="android:background">@drawable/navigation_background</item>
+        <item name="itemTextColor">@color/white</item>
+        <item name="android:maxWidth">300dp</item>
+        <item name="itemShapeFillColor">@color/purple</item>
+        <item name="itemShapeAppearanceOverlay">@style/itemShape</item>
+    </style>
+    <style name="itemShape" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50dp</item>
+    </style>
+
+
+
+    <style name="navigationDrawerBottom" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextColor">@color/white</item>
+         <item name="android:background">@color/yellow</item>
+         <item name="shapeAppearanceOverlay">@style/navigationBottomShare</item>
+    </style>
+
+    <style name="navigationBottomShare" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSizeTopLeft">50dp</item>
+        <item name="cornerSizeTopRight">50dp</item>
+    </style>
+
+
+
+</resources>
